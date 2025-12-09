@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class GridExample extends StatelessWidget {
   final items = List.generate(12, (i) => i + 1);
 
+  GridExample({super.key});
+
   Widget buildGridItem(int index) {
     return Container(
       decoration: BoxDecoration(

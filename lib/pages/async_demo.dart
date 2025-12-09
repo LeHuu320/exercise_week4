@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AsyncDemo extends StatefulWidget {
+  const AsyncDemo({super.key});
+
   @override
   _AsyncDemoState createState() => _AsyncDemoState();
 }

@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class ContactListPage extends StatelessWidget {
   final contacts = List.generate(20, (i) => "Contact ${i + 1}");
 
+  ContactListPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
